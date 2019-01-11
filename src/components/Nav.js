@@ -34,17 +34,6 @@ const Nav = props => {
       <span className="normalText">A React App for County Fair Hog Fans</span>
       <br />
       <br />
-      <select
-        type="checkbox"
-        name="grease"
-        value="All"
-        onChange={this.displayGrease}
-      >
-        <option value="">Greased</option>
-        <option value="">Un-Greased</option>
-        <option value="">All Hogs</option>
-      </select>
-
       <br />
       <div className="ui grid container">{displayHogs}</div>
     </div>
